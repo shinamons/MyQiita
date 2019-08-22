@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E60776542300276900F414D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776532300276900F414D2 /* AppDelegate.swift */; };
-		E60776562300276900F414D2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776552300276900F414D2 /* FirstViewController.swift */; };
 		E60776582300276900F414D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776572300276900F414D2 /* SecondViewController.swift */; };
 		E607765B2300276900F414D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60776592300276900F414D2 /* Main.storyboard */; };
 		E607765D2300276A00F414D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E607765C2300276A00F414D2 /* Assets.xcassets */; };
 		E60776602300276A00F414D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E607765E2300276A00F414D2 /* LaunchScreen.storyboard */; };
 		E607766B2300276A00F414D2 /* myQiitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607766A2300276A00F414D2 /* myQiitaTests.swift */; };
 		E60776762300276A00F414D2 /* myQiitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776752300276A00F414D2 /* myQiitaUITests.swift */; };
+		E6C1D4F8230E2FB300849D69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */; };
+		E6C1D4F9230E2FB300849D69 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */; };
+		E6C1D4FB230E979600849D69 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4FA230E979600849D69 /* ColorUtil.swift */; };
+		E6C1D501230EAD8800849D69 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D500230EAD8800849D69 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		E60776502300276900F414D2 /* myQiita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myQiita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60776532300276900F414D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E60776552300276900F414D2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E60776572300276900F414D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E607765A2300276900F414D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E607765C2300276A00F414D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		E60776712300276A00F414D2 /* myQiitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myQiitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60776752300276A00F414D2 /* myQiitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myQiitaUITests.swift; sourceTree = "<group>"; };
 		E60776772300276A00F414D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E6C1D4FA230E979600849D69 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		E6C1D500230EAD8800849D69 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,13 @@
 		E60776522300276900F414D2 /* myQiita */ = {
 			isa = PBXGroup;
 			children = (
-				E60776532300276900F414D2 /* AppDelegate.swift */,
-				E60776552300276900F414D2 /* FirstViewController.swift */,
+				E6C1D4F5230E2E7600849D69 /* Applicarion */,
+				E6C1D4F4230E2E5700849D69 /* Util */,
+				E6C1D4F1230CD6C300849D69 /* Presentation */,
+				E6C1D4F2230E2E4100849D69 /* Domain */,
+				E6C1D4F3230E2E4F00849D69 /* Data */,
 				E60776572300276900F414D2 /* SecondViewController.swift */,
+				E60776532300276900F414D2 /* AppDelegate.swift */,
 				E60776592300276900F414D2 /* Main.storyboard */,
 				E607765C2300276A00F414D2 /* Assets.xcassets */,
 				E607765E2300276A00F414D2 /* LaunchScreen.storyboard */,
@@ -126,6 +136,53 @@
 				E60776772300276A00F414D2 /* Info.plist */,
 			);
 			path = myQiitaUITests;
+			sourceTree = "<group>";
+		};
+		E6C1D4F0230CD6B500849D69 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E6C1D500230EAD8800849D69 /* Home.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E6C1D4F1230CD6C300849D69 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E6C1D4F0230CD6B500849D69 /* UI */,
+				E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */,
+				E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E6C1D4F2230E2E4100849D69 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E6C1D4F3230E2E4F00849D69 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E6C1D4F4230E2E5700849D69 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E6C1D4FA230E979600849D69 /* ColorUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E6C1D4F5230E2E7600849D69 /* Applicarion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Applicarion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C1D4F9230E2FB300849D69 /* LoginViewController.xib in Resources */,
+				E6C1D501230EAD8800849D69 /* Home.storyboard in Resources */,
 				E60776602300276A00F414D2 /* LaunchScreen.storyboard in Resources */,
 				E607765D2300276A00F414D2 /* Assets.xcassets in Resources */,
 				E607765B2300276900F414D2 /* Main.storyboard in Resources */,
@@ -259,9 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C1D4F8230E2FB300849D69 /* LoginViewController.swift in Sources */,
 				E60776582300276900F414D2 /* SecondViewController.swift in Sources */,
 				E60776542300276900F414D2 /* AppDelegate.swift in Sources */,
-				E60776562300276900F414D2 /* FirstViewController.swift in Sources */,
+				E6C1D4FB230E979600849D69 /* ColorUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
