@@ -15,7 +15,6 @@
 		E607766B2300276A00F414D2 /* myQiitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607766A2300276A00F414D2 /* myQiitaTests.swift */; };
 		E60776762300276A00F414D2 /* myQiitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776752300276A00F414D2 /* myQiitaUITests.swift */; };
 		E6C1D4F8230E2FB300849D69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */; };
-		E6C1D4F9230E2FB300849D69 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */; };
 		E6C1D4FB230E979600849D69 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4FA230E979600849D69 /* ColorUtil.swift */; };
 		E6C1D501230EAD8800849D69 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D500230EAD8800849D69 /* Home.storyboard */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		E60776752300276A00F414D2 /* myQiitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myQiitaUITests.swift; sourceTree = "<group>"; };
 		E60776772300276A00F414D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		E6C1D4FA230E979600849D69 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		E6C1D500230EAD8800849D69 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +139,6 @@
 		E6C1D4F0230CD6B500849D69 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				E6C1D500230EAD8800849D69 /* Home.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -149,9 +146,9 @@
 		E6C1D4F1230CD6C300849D69 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				E6C1D500230EAD8800849D69 /* Home.storyboard */,
 				E6C1D4F0230CD6B500849D69 /* UI */,
 				E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */,
-				E6C1D4F7230E2FB300849D69 /* LoginViewController.xib */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C1D4F9230E2FB300849D69 /* LoginViewController.xib in Resources */,
 				E6C1D501230EAD8800849D69 /* Home.storyboard in Resources */,
 				E60776602300276A00F414D2 /* LaunchScreen.storyboard in Resources */,
 				E607765D2300276A00F414D2 /* Assets.xcassets in Resources */,
