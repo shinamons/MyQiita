@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1JM9T6HFI6SU5UA8AFRB9ZWE /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6T5IOAP4HSTQX1817Q1TCZ8D /* Wireframe.swift */; };
+		70I7BL39VC4O6H5JQ81TCFVP /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = OFE7JLBR1BYRHE0WL11REVUI /* Repository.swift */; };
+		8T9RY9QLJPPCWZR2MVX599D4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4TD12JKRQ41XTWG4RTPZVXWZ /* View.swift */; };
+		DKX8PXQ88AZEH3VSN2R5QSM6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EP6WE4Y1JRFJ33HMT0A5M21O /* DataStore.swift */; };
 		E60776542300276900F414D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776532300276900F414D2 /* AppDelegate.swift */; };
 		E60776582300276900F414D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776572300276900F414D2 /* SecondViewController.swift */; };
 		E607765B2300276900F414D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60776592300276900F414D2 /* Main.storyboard */; };
@@ -14,9 +18,26 @@
 		E60776602300276A00F414D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E607765E2300276A00F414D2 /* LaunchScreen.storyboard */; };
 		E607766B2300276A00F414D2 /* myQiitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607766A2300276A00F414D2 /* myQiitaTests.swift */; };
 		E60776762300276A00F414D2 /* myQiitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60776752300276A00F414D2 /* myQiitaUITests.swift */; };
+		E634BAC323168BA700999A0A /* OAuthAuthorizeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634BAC223168BA700999A0A /* OAuthAuthorizeDataStore.swift */; };
+		E634BACD23168C9C00999A0A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAC523168C9C00999A0A /* RxSwift.framework */; };
+		E634BACE23168C9C00999A0A /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAC623168C9C00999A0A /* RxTest.framework */; };
+		E634BACF23168C9C00999A0A /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAC723168C9C00999A0A /* SVProgressHUD.framework */; };
+		E634BAD023168C9C00999A0A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAC823168C9C00999A0A /* RxRelay.framework */; };
+		E634BAD123168C9C00999A0A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAC923168C9C00999A0A /* Realm.framework */; };
+		E634BAD223168C9C00999A0A /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BACA23168C9C00999A0A /* RxBlocking.framework */; };
+		E634BAD323168C9C00999A0A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BACB23168C9C00999A0A /* RealmSwift.framework */; };
+		E634BAD423168C9C00999A0A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BACC23168C9C00999A0A /* RxCocoa.framework */; };
+		E634BAD723168E9700999A0A /* AuthorizeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634BAD623168E9700999A0A /* AuthorizeEntity.swift */; };
+		E634BAD92316925500999A0A /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634BAD82316925500999A0A /* Himotoki.framework */; };
 		E6C1D4F8230E2FB300849D69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */; };
 		E6C1D4FB230E979600849D69 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1D4FA230E979600849D69 /* ColorUtil.swift */; };
 		E6C1D501230EAD8800849D69 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D500230EAD8800849D69 /* Home.storyboard */; };
+		F1BY9AMYUIFOMTPCMNQ0SHZU /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CH6Y0WNYJVA2KKYAVMOVX4HI /* UseCase.swift */; };
+		F60EO2IT1F53ZE3A74J3LXEQ /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = MWX7WZLYNL02DES35B5PBML5 /* Entity.swift */; };
+		LNONGM49J0SSWWXZZUDTE80P /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ZJXXBXEEJRAF23EQR378R4 /* Model.swift */; };
+		OEDRS1I5TCBH3NDQ3PSYJIIY /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AVIG2OAYGMJHY9VPTZN40VZR /* Builder.swift */; };
+		POHT3SJ2D2RBCWGGR7FNYLX8 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = R6DW48MV6AISUSWCHR100ENP /* Translator.swift */; };
+		SICOJBBDS0BW9RZK1U4ZDYIL /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAS08CL6P633O0OBKLGW4THT /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4TD12JKRQ41XTWG4RTPZVXWZ /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		69ZJXXBXEEJRAF23EQR378R4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6T5IOAP4HSTQX1817Q1TCZ8D /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		AVIG2OAYGMJHY9VPTZN40VZR /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		BAS08CL6P633O0OBKLGW4THT /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		CH6Y0WNYJVA2KKYAVMOVX4HI /* UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		E60776502300276900F414D2 /* myQiita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myQiita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60776532300276900F414D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E60776572300276900F414D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +77,24 @@
 		E60776712300276A00F414D2 /* myQiitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myQiitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60776752300276A00F414D2 /* myQiitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myQiitaUITests.swift; sourceTree = "<group>"; };
 		E60776772300276A00F414D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E634BAC223168BA700999A0A /* OAuthAuthorizeDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthAuthorizeDataStore.swift; sourceTree = "<group>"; };
+		E634BAC523168C9C00999A0A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E634BAC623168C9C00999A0A /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		E634BAC723168C9C00999A0A /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		E634BAC823168C9C00999A0A /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		E634BAC923168C9C00999A0A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		E634BACA23168C9C00999A0A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		E634BACB23168C9C00999A0A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		E634BACC23168C9C00999A0A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E634BAD623168E9700999A0A /* AuthorizeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizeEntity.swift; sourceTree = "<group>"; };
+		E634BAD82316925500999A0A /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		E6C1D4F6230E2FB200849D69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E6C1D4FA230E979600849D69 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		E6C1D500230EAD8800849D69 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EP6WE4Y1JRFJ33HMT0A5M21O /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		MWX7WZLYNL02DES35B5PBML5 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		OFE7JLBR1BYRHE0WL11REVUI /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		R6DW48MV6AISUSWCHR100ENP /* Translator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +102,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E634BAD92316925500999A0A /* Himotoki.framework in Frameworks */,
+				E634BACD23168C9C00999A0A /* RxSwift.framework in Frameworks */,
+				E634BACE23168C9C00999A0A /* RxTest.framework in Frameworks */,
+				E634BACF23168C9C00999A0A /* SVProgressHUD.framework in Frameworks */,
+				E634BAD023168C9C00999A0A /* RxRelay.framework in Frameworks */,
+				E634BAD123168C9C00999A0A /* Realm.framework in Frameworks */,
+				E634BAD223168C9C00999A0A /* RxBlocking.framework in Frameworks */,
+				E634BAD323168C9C00999A0A /* RealmSwift.framework in Frameworks */,
+				E634BAD423168C9C00999A0A /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +131,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2KA814ZX5O4Q3ZMAIBWK0VUE /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				AVIG2OAYGMJHY9VPTZN40VZR /* Builder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3YB2GBT8PUQRBYI5X0X5TABH /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				MWX7WZLYNL02DES35B5PBML5 /* Entity.swift */,
+				E634BAD623168E9700999A0A /* AuthorizeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9WKRZHJ6C9K130RFT6YGKCQG /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				CH6Y0WNYJVA2KKYAVMOVX4HI /* UseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		E60776472300276900F414D2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +163,7 @@
 				E60776692300276A00F414D2 /* myQiitaTests */,
 				E60776742300276A00F414D2 /* myQiitaUITests */,
 				E60776512300276900F414D2 /* Products */,
+				E634BAC423168C9C00999A0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +182,8 @@
 			children = (
 				E6C1D4F5230E2E7600849D69 /* Applicarion */,
 				E6C1D4F4230E2E5700849D69 /* Util */,
+				V0X7GOHP1VY1LH4UP6HQW4T4 /* Components */,
 				E6C1D4F1230CD6C300849D69 /* Presentation */,
-				E6C1D4F2230E2E4100849D69 /* Domain */,
-				E6C1D4F3230E2E4F00849D69 /* Data */,
 				E60776572300276900F414D2 /* SecondViewController.swift */,
 				E60776532300276900F414D2 /* AppDelegate.swift */,
 				E60776592300276900F414D2 /* Main.storyboard */,
@@ -136,6 +212,22 @@
 			path = myQiitaUITests;
 			sourceTree = "<group>";
 		};
+		E634BAC423168C9C00999A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E634BAD82316925500999A0A /* Himotoki.framework */,
+				E634BAC923168C9C00999A0A /* Realm.framework */,
+				E634BACB23168C9C00999A0A /* RealmSwift.framework */,
+				E634BACA23168C9C00999A0A /* RxBlocking.framework */,
+				E634BACC23168C9C00999A0A /* RxCocoa.framework */,
+				E634BAC823168C9C00999A0A /* RxRelay.framework */,
+				E634BAC523168C9C00999A0A /* RxSwift.framework */,
+				E634BAC623168C9C00999A0A /* RxTest.framework */,
+				E634BAC723168C9C00999A0A /* SVProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6C1D4F0230CD6B500849D69 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,20 +245,6 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		E6C1D4F2230E2E4100849D69 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		E6C1D4F3230E2E4F00849D69 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		E6C1D4F4230E2E5700849D69 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +260,80 @@
 			path = Applicarion;
 			sourceTree = "<group>";
 		};
+		FQZAZ75OX1RJ026VPB0U6W8W /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69ZJXXBXEEJRAF23EQR378R4 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FW89PWOHE9CXIJUBSPKAQ35K /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6T5IOAP4HSTQX1817Q1TCZ8D /* Wireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		I1VO8NRRCMMUFBY9KLBNKNLI /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				EP6WE4Y1JRFJ33HMT0A5M21O /* DataStore.swift */,
+				E634BAC223168BA700999A0A /* OAuthAuthorizeDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		IRYCIURNKI0VR2XZMB99UO3K /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BAS08CL6P633O0OBKLGW4THT /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		MSUNPD2JL2UBHBQTMXWRC19T /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4TD12JKRQ41XTWG4RTPZVXWZ /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		UTU1H20ZFK12T8KI1BX4WQ2W /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				R6DW48MV6AISUSWCHR100ENP /* Translator.swift */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		V0X7GOHP1VY1LH4UP6HQW4T4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2KA814ZX5O4Q3ZMAIBWK0VUE /* Builder */,
+				MSUNPD2JL2UBHBQTMXWRC19T /* View */,
+				IRYCIURNKI0VR2XZMB99UO3K /* Presenter */,
+				9WKRZHJ6C9K130RFT6YGKCQG /* UseCase */,
+				UTU1H20ZFK12T8KI1BX4WQ2W /* Translator */,
+				FQZAZ75OX1RJ026VPB0U6W8W /* Model */,
+				Z6J727LKT4QJ4WDYZUEXQP0I /* Repository */,
+				3YB2GBT8PUQRBYI5X0X5TABH /* Entity */,
+				FW89PWOHE9CXIJUBSPKAQ35K /* Wireframe */,
+				I1VO8NRRCMMUFBY9KLBNKNLI /* DataStore */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		Z6J727LKT4QJ4WDYZUEXQP0I /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				OFE7JLBR1BYRHE0WL11REVUI /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +344,7 @@
 				E607764C2300276900F414D2 /* Sources */,
 				E607764D2300276900F414D2 /* Frameworks */,
 				E607764E2300276900F414D2 /* Resources */,
+				E634BAD523168D1500999A0A /* Carthage's Run Script */,
 			);
 			buildRules = (
 			);
@@ -309,6 +462,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E634BAD523168D1500999A0A /* Carthage's Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+			);
+			name = "Carthage's Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E607764C2300276900F414D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -318,6 +501,18 @@
 				E60776582300276900F414D2 /* SecondViewController.swift in Sources */,
 				E60776542300276900F414D2 /* AppDelegate.swift in Sources */,
 				E6C1D4FB230E979600849D69 /* ColorUtil.swift in Sources */,
+				70I7BL39VC4O6H5JQ81TCFVP /* Repository.swift in Sources */,
+				F60EO2IT1F53ZE3A74J3LXEQ /* Entity.swift in Sources */,
+				SICOJBBDS0BW9RZK1U4ZDYIL /* Presenter.swift in Sources */,
+				1JM9T6HFI6SU5UA8AFRB9ZWE /* Wireframe.swift in Sources */,
+				E634BAD723168E9700999A0A /* AuthorizeEntity.swift in Sources */,
+				POHT3SJ2D2RBCWGGR7FNYLX8 /* Translator.swift in Sources */,
+				DKX8PXQ88AZEH3VSN2R5QSM6 /* DataStore.swift in Sources */,
+				E634BAC323168BA700999A0A /* OAuthAuthorizeDataStore.swift in Sources */,
+				LNONGM49J0SSWWXZZUDTE80P /* Model.swift in Sources */,
+				8T9RY9QLJPPCWZR2MVX599D4 /* View.swift in Sources */,
+				OEDRS1I5TCBH3NDQ3PSYJIIY /* Builder.swift in Sources */,
+				F1BY9AMYUIFOMTPCMNQ0SHZU /* UseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +689,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VPJN87ZK9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = myQiita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +711,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VPJN87ZK9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = myQiita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
