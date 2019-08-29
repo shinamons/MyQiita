@@ -9,16 +9,22 @@
 import UIKit
 
 protocol __PREFIX__Wireframe: class {
+    private weak var viewController: UIViewController? { get set }
     
+    func showList()
+    func closeView()
 }
 
 
 class __PREFIX__WireframeImpl: __PREFIX__Wireframe {
-    private weak var viewController: UIViewController!
+    private weak var viewController: UIViewController?
     
     init(
         viewController: UIViewController
         ) {
         self.viewController = viewController
+    }
+    func closeView() {
+        viewController?.dismiss(animated: true, completion: nil)
     }
 }
